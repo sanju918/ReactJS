@@ -29,7 +29,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 );
 ```
 
-### Adding JS code for handling query and api
+### Creating custom hook for handling query and api
 
 ```js
 // useSellers.js
