@@ -48,11 +48,11 @@ const useGetSellers = (param) => {
 export { useGetSellers };
 ```
 
-### Importing the code to component
+### Importing the hook to component
 
 ```js
 // Sellers.jsx
-import React, { useEffect, useState } from "react";
+
 import apiClient from "../../utils/api-client";
 import Loader from "../Common/Loader";
 import { useGetSellers } from "../api/useSellers";
