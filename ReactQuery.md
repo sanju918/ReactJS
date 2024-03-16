@@ -59,9 +59,6 @@ import { useGetSellers } from "../api/useSellers";
 
 const Sellers = () => {
   const [name, setName] = useState("");
-
-  const [errors, setErrors] = useState("");
-
   const sellers = useGetSellers({ params: "some params" });
 
   return (
